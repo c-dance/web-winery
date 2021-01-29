@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1080px){
+    #header .wrap .gap .container .right-wrap { display:none; }
+
+}
+
+@media screen and (max-width: 960px){
+    #header { height: 55px; background-color: #fff;}
+    #header .wrap .gap .container .left-wrap { line-height: 55px; }
+    #header .wrap .gap .container .left-wrap .gnb { display : none; } 
+    #header .wrap .gap .container .trigger-wrap { display: block; }
+    
+    /*section03*/
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content img { width: 250px; height: 100px; }
+    
+    /*section04*/
+    #section04 .wrap .gap .container .view-wrap .view-box { width: 326.84px;}
+    
+    /*section05*/
+    #section05 .wrap .gap .container .content-wrap .content { width: 100%; height: 50%; }
+    #section05 .wrap .gap .container .content-wrap .content02 .moving-box { top: 0; left: 0; }
+    #section05 .wrap .gap .container .content-wrap .content02:hover .moving-box { top: 0; left: 50%; }
+    #section05 .wrap .gap .container .content-wrap .content02 .moving-box .vertical-box { left: -30px; }
+    #section05 .wrap .gap .container .content-wrap .content03 .moving-box { top: 0; left: 50%; }
+    #section05 .wrap .gap .container .content-wrap .content03:hover .moving-box { top: 0; left: 0; }
+    #section05 .wrap .gap .container .content-wrap .content03 .moving-box .vertical-box { left: 100%; }
+    
+    /*section07*/
+    #section07 .wrap .gap .container .cols .col-left-menus { width: 18%; }
+    #section07 .wrap .gap .container .cols .col-right-menus { width: 82%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select a { font-size: 24px;}
+
+
+    /*footer*/
+    #footer .wrap .gap .container { padding: 15px 15px; }
+    #footer .wrap .gap .container .footer-col { position: absolute; top: 0; left: 0; text-align: center; font-size: 14px; }
+    #footer .wrap .gap .container .footer-col01 { top: 90px; width: 50%; }
+    #footer .wrap .gap .container .footer-col02 { top: 45px; left: 0; width: 100%; }
+    #footer .wrap .gap .container .footer-col03 { top: 90px; left: 50%; width: 50%; }
+}
+
+@media screen and (max-width: 760px){
+    /*section02*/
+    #section02 .wrap .gap .container .cols .col { float: none; width: 100%; height: auto;}
+    #section02 .wrap .gap .container .cols .col .text-box { height: auto; margin-bottom: 15px;}
+    #section02 .wrap .gap .container .cols .col .img-box { width: 480px; height: 180px; }
+    
+    /*section03*/
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box { height: auto; padding-bottom: 30px; }
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box  .bar { left: 10%; }
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content { 
+        position: relative; 
+        top: 0; 
+        left: 10%;
+        margin-bottom: 24px;
+        width: 90%;
+        text-align: left; 
+    }
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content:last-child { margin-bottom: 0;}
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content .dot {
+        position: absolute;
+        top: 6px;
+        left: -4px;
+    }
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content img { width: 300px; height: 120px; }
+    
+    /*section04*/
+    #section04 .wrap .gap .container .selection-wrap .selection { margin: 5%; }
+    
+    /*section06*/
+    #section06 .wrap .gap .container .cols .col { float: none; margin: 0 auto 20px auto; width: 304px; }
+    
+    /*section07*/
+    #section07 .wrap .gap .container .cols .col { float: none; position: relative;}
+    #section07 .wrap .gap .container .cols .col-left-menus { width:100%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select { float: left; width: 25%; text-align: center;}
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select a {font-size: 18px;}
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select:nth-child(1) a i { width: 100%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select:nth-child(2) a i { width: 100%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select:nth-child(3) a i { width: 100%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select:nth-child(4) a i { width: 100%; }
+    #section07 .wrap .gap .container .cols .col-left-menus .menu-select a:hover i { position: relative; top:-20px; left: 0;}
+    
+    #section07 .wrap .gap .container .cols .col-right-menus { width: 100%; padding: 0;}
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-right .menu-title { visibility: hidden; height: 0px; }
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col { float: none; display: table;}
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-left { padding: 0 25%; width: 100%; display: table-cell;}
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-left img { width: 70%; height: 164px;}
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-left p { width: 100%; }
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-left span { margin-top: 20px;}
+    #section07 .wrap .gap .container .cols .col-right-menus .menu-contents .content-col-right { width: 100%; }
+    
+    /*footer*/
+    #footer .wrap .gap .container { padding: 15px 15px; }
+    #footer .wrap .gap .container .footer-col { position: relative; width: 100%; height: auto;}
+    #footer .wrap .gap .container .footer-col01 {top: 0; left: 0; text-align: center;}
+    #footer .wrap .gap .container .footer-col02 {top: 0; left: 0; margin: 5px 0; text-align: center;}
+    #footer .wrap .gap .container .footer-col02 img { margin-top: 0;}
+    #footer .wrap .gap .container .footer-col03 {top: 0; left: 0; text-align: center;}
+    
+}
+@media screen and (max-width: 480px) {
+    #section02 .wrap .gap .container .cols .col { float: none; width: 100%; height: auto;}
+    #section02 .wrap .gap .container .cols .col .text-box { height: auto; margin-bottom: 15px;}
+    #section02 .wrap .gap .container .cols .col .img-box { width: 100%; height: 113px; }
+    /*section03*/
+    #section03 .wrap .gap .container .timeline-box .scroll-wrap .content-box .content img { width: 200px; height: 80px; }
+    /*section06*/
+    #section06 .wrap .gap .container .cols .col { float: none; margin: 0 auto 20px auto; width: 100%; }
+    /*section07*/
+    
+    
+    
+}
