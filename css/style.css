@@ -256,7 +256,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    background: url(/img/main/background06.jpg) 50% 50% no-repeat;
+    background: url(../img/main/background06.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section02::after {
@@ -388,7 +388,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    background: url(/img/main/day.jpg) no-repeat 50% 50%;
+    background: url(../img/main/day.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 #section03::after {
@@ -575,7 +575,7 @@
     top: 50px;
     width: 100%;
     height: 400px;
-    background: url(/img/main/lunch.jpg);
+    background: url(../img/main/lunch.jpg);
     filter: sepia(40%);
     transition: background .4s ease-in-out;
 
@@ -648,7 +648,7 @@
 #section05 {
     width: 100%;
     height: auto;
-    background: url(/img/main/background05.jpg) 50% 50% no-repeat fixed;
+    background: url(../img/main/background05.jpg) 50% 50% no-repeat fixed;
     background-size: cover;
 }
 #section05 .wrap {
@@ -696,7 +696,7 @@
     width: 100%;
     height: 100%;
     content: '';
-    background: url(/img/main/space01.jpg) 50% 50% no-repeat;
+    background: url(../img/main/space01.jpg) 50% 50% no-repeat;
     background-size: cover;
     filter: grayscale(50);  
 }
@@ -704,15 +704,15 @@
     filter: none;
 }
 #section05 .wrap .gap .container .content-wrap .content02::after {
-    background: url(/img/main/space02.jpg) 50% 50% no-repeat;
+    background: url(../img/main/space02.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section05 .wrap .gap .container .content-wrap .content03::after {
-    background: url(/img/main/space03.jpg) 50% 50% no-repeat;
+    background: url(../img/main/space03.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section05 .wrap .gap .container .content-wrap .content04::after {
-    background: url(/img/main/space04.jpg) 50% 50% no-repeat;
+    background: url(../img/main/space04.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section05 .wrap .gap .container .content-wrap .content .moving-box {
@@ -825,7 +825,7 @@
     width: 100%;
     height: 100%;
     border-radius: 30px;
-    background: url(/img/main/redwine.jpg) 50% 70% no-repeat;
+    background: url(../img/main/redwine.jpg) 50% 70% no-repeat;
     background-size: cover;
     transition: transform .9s .3s cubic-bezier(0.4, 0.2, 0.2, 1);
     transform: rotateY(0deg);
@@ -852,11 +852,11 @@
     transform: rotateY(180deg);
 }
 #section06 .wrap .gap .container .cols .col02 .front-box {
-    background: url(/img/main/whitewine.jpg) 50% 80% no-repeat;
+    background: url(../img/main/whitewine.jpg) 50% 80% no-repeat;
     background-size: cover;
 }
 #section06 .wrap .gap .container .cols .col03 .front-box {
-    background: url(/img/main/champagne.jpg) 50% 80% no-repeat;
+    background: url(../img/main/champagne.jpg) 50% 80% no-repeat;
     background-size: cover;
 }
 #section06 .wrap .gap .container .cols .col .front-box > .text-wrap {
@@ -924,7 +924,7 @@
     padding: 100px 0;
     width:100%;
     height:auto;/*auto*/
-    background: url(/img/main/background08.jpg) 50% 50% no-repeat;
+    background: url(../img/main/background08.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section07 .wrap{
@@ -1180,7 +1180,7 @@
     padding: 100px 0;
     width: 100%;
     height: auto;
-    background: url(/img/main/background07.jpg) 50% 50% no-repeat;
+    background: url(../img/main/background07.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 #section09 .wrap {
